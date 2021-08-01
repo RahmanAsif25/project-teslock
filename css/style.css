@@ -1,0 +1,296 @@
+/*font-family: 'Merriweather', serif;*/
+
+/*Common start*/
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #ffffff;
+}
+/*Common end*/
+
+/*HEADER START*/
+header{
+	background-color: black;
+}
+.c_nav{}
+.logo{
+	width: 170px;
+}
+.menu{}
+.menu ul li a{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 13px;
+	color: #ffffff !important;
+	padding: 0 25px !important;
+}
+.menu ul li a:hover{
+     color: red !important;
+}
+.f-control{
+	padding: 0 25px;
+	width: 214px;
+    height: 40px;
+    border-radius: 30px;
+}
+.c-icon{
+    position: relative;
+	top: 7px;
+	right: 38px;
+	color: black;
+}
+
+/*HEADER END*/
+/*BANNER START*/
+.banner{
+	background-image: url(../images/night.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.b_text{
+	margin-right: 80px;
+}
+.b_text h1{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 50px;
+	color: white;
+	padding-top: 260px;
+	letter-spacing: 3px;
+	text-align: right;
+}
+.b_text button{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	color: white;
+	background-color: #8826CB;
+	border: 0;
+	width: 260px;
+     height: 60px;
+     border-radius: 40px;
+     margin-top: 45px;
+     margin-left: 290px;
+}
+.b_text p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: white;
+	text-align: right;
+	margin-top: 15px;
+	margin-right: 20px;
+	margin-bottom: 260px;
+}
+/*BANNER END*/
+.blog{
+	background-color: #2D3A4D;
+	color: white;
+}
+/*BLOG START*/
+.blog-text{}
+.blog-text h2{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	padding-top: 75px;
+	padding-bottom: 30px;
+}
+.blog-text p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+.c-h2{
+	padding-top: 60px !important;
+}
+.c_p{
+	padding-bottom: 136px;
+}
+/*BLOG END*/
+/*HERO START*/
+
+.hero{
+	position: relative;
+	background-image: url(../images/tree.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: -1;
+	}
+.hero::after{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color:#d54c63;
+	opacity: 0.5;
+	z-index: 1;
+}
+.h-overlay{}
+.h-overlay h1{
+	padding-top: 153px;
+	padding-bottom: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 35px;
+	text-align:center;
+	color: white;
+}
+.h-overlay p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	text-align:center;
+	color: white;
+	letter-spacing: 1px;
+	padding-bottom: 15px;
+}
+.h-overlay button{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	color: #d54c63;
+	width: 300px;
+	height: 60px;
+	border-radius: 40px;
+	margin-left: 110px;
+	margin-bottom: 110px;
+	border: 0;
+	cursor: pointer !important;
+}
+
+/*HERO END*/
+
+/*SERVICE START*/
+ .service{}
+ .service_img{}
+ .service_img img{}
+ .s_text{
+ 	padding-top: 90px;
+ 	margin-left: -85px;
+}
+ .s_text h2{
+ 	font-family: 'Open Sans', sans-serif;
+ 	font-weight: 700;
+     color: black;
+ 	font-size: 20px;
+
+ }
+ .s_text h3{
+ 	margin-right: 18px;
+ 	font-family: 'Open Sans', sans-serif;
+ 	font-weight: 400;
+ 	color: black;
+ 	font-size: 17px;
+ 	padding-bottom: 30px;
+ 	word-spacing: 3px;
+}
+ .s_text p{
+ 	font-family: 'Open Sans', sans-serif;
+ 	font-weight: 300;
+ 	color: black;
+ 	font-size: 16px;
+ 	
+ }
+/*SERVICE END*/
+
+/*HERO 2 START*/
+
+.hero2{
+	background-image: url(../images/hill.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.h-overlay2{}
+.h-overlay2 h1{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 40px;
+	color: black;
+	padding-bottom: 30px;
+}
+.h-overlay2 p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: black;
+	padding-top: 10px;
+	
+	}
+.h-overlay2 button{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+     margin-left: 140px;
+	width: 250px;
+	height: 50px;
+	border-radius: 30px;
+	border: 0;
+}
+.i{
+	text-align: center;
+	padding-bottom: 30px;
+}
+.i i{
+	margin: 0 15px;
+	font-size: 30px;
+	color: black;
+}
+.i i:hover{
+	color: white !important;
+}
+/*HERO 2 END*/
+
+/*BANNER 2 START*/
+.banner2{
+	background-image: url(../images/food.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.text{}
+.text button{
+	width: 128px;
+	height: 37px;
+	margin-top: 350px;
+	border-radius: 20px;
+	border: 3px solid white;
+	color: white;
+}
+.text h1{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+	padding-top: 10px;
+}
+/*BANNER 2 END*/
+
+/*FOOTER START*/
+.footer{
+	background-color: #E6526A;
+}
+.f-text{}
+.f-text h3{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: white;
+	padding-top: 50px;
+}
+.f-text p{
+	color: white;
+	font-size: 16px;
+
+}
+.f-text a{
+	color: white;
+
+
+}
+/*FOOTER END*/
